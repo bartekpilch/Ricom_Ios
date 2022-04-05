@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B736F9127FCBFB5007E66FB /* logoricom.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B736F9027FCBFB4007E66FB /* logoricom.png */; };
+		4BCADC3D27F1B6CE00D37D49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCADC3C27F1B6CE00D37D49 /* AppDelegate.swift */; };
+		4BCADC3F27F1B6CE00D37D49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCADC3E27F1B6CE00D37D49 /* SceneDelegate.swift */; };
+		4BCADC4127F1B6CE00D37D49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCADC4027F1B6CE00D37D49 /* ViewController.swift */; };
+		4BCADC4427F1B6CE00D37D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BCADC4227F1B6CE00D37D49 /* Main.storyboard */; };
+		4BCADC4727F1B6CE00D37D49 /* RicomEnergy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BCADC4527F1B6CE00D37D49 /* RicomEnergy.xcdatamodeld */; };
+		4BCADC4927F1B70600D37D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BCADC4827F1B70600D37D49 /* Assets.xcassets */; };
+		4BCADC4C27F1B70600D37D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BCADC4A27F1B70600D37D49 /* LaunchScreen.storyboard */; };
+		4BCADC5727F1B70C00D37D49 /* RicomEnergyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCADC5627F1B70C00D37D49 /* RicomEnergyTests.swift */; };
+		4BCADC6227F1B70C00D37D49 /* RicomEnergyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCADC6127F1B70C00D37D49 /* RicomEnergyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BCADC5327F1B70C00D37D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BCADC3127F1B6CD00D37D49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BCADC3827F1B6CD00D37D49;
+			remoteInfo = RicomEnergy;
+		};
+		4BCADC5E27F1B70C00D37D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BCADC3127F1B6CD00D37D49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BCADC3827F1B6CD00D37D49;
+			remoteInfo = RicomEnergy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B736F9027FCBFB4007E66FB /* logoricom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoricom.png; path = ../../../../../../Downloads/logoricom.png; sourceTree = "<group>"; };
+		4BCADC3927F1B6CD00D37D49 /* RicomEnergy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RicomEnergy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCADC3C27F1B6CE00D37D49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BCADC3E27F1B6CE00D37D49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4BCADC4027F1B6CE00D37D49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BCADC4327F1B6CE00D37D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BCADC4627F1B6CE00D37D49 /* RicomEnergy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RicomEnergy.xcdatamodel; sourceTree = "<group>"; };
+		4BCADC4827F1B70600D37D49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BCADC4B27F1B70600D37D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BCADC4D27F1B70600D37D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BCADC5227F1B70C00D37D49 /* RicomEnergyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RicomEnergyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCADC5627F1B70C00D37D49 /* RicomEnergyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RicomEnergyTests.swift; sourceTree = "<group>"; };
+		4BCADC5827F1B70C00D37D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BCADC5D27F1B70C00D37D49 /* RicomEnergyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RicomEnergyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCADC6127F1B70C00D37D49 /* RicomEnergyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RicomEnergyUITests.swift; sourceTree = "<group>"; };
+		4BCADC6327F1B70C00D37D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BCADC3627F1B6CD00D37D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCADC4F27F1B70C00D37D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCADC5A27F1B70C00D37D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BCADC3027F1B6CC00D37D49 = {
+			isa = PBXGroup;
+			children = (
+				4BCADC3B27F1B6CD00D37D49 /* RicomEnergy */,
+				4BCADC5527F1B70C00D37D49 /* RicomEnergyTests */,
+				4BCADC6027F1B70C00D37D49 /* RicomEnergyUITests */,
+				4BCADC3A27F1B6CD00D37D49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BCADC3A27F1B6CD00D37D49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BCADC3927F1B6CD00D37D49 /* RicomEnergy.app */,
+				4BCADC5227F1B70C00D37D49 /* RicomEnergyTests.xctest */,
+				4BCADC5D27F1B70C00D37D49 /* RicomEnergyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BCADC3B27F1B6CD00D37D49 /* RicomEnergy */ = {
+			isa = PBXGroup;
+			children = (
+				4BCADC3C27F1B6CE00D37D49 /* AppDelegate.swift */,
+				4BCADC3E27F1B6CE00D37D49 /* SceneDelegate.swift */,
+				4BCADC4027F1B6CE00D37D49 /* ViewController.swift */,
+				4BCADC4227F1B6CE00D37D49 /* Main.storyboard */,
+				4BCADC4827F1B70600D37D49 /* Assets.xcassets */,
+				4BCADC4A27F1B70600D37D49 /* LaunchScreen.storyboard */,
+				4BCADC4D27F1B70600D37D49 /* Info.plist */,
+				4B736F9027FCBFB4007E66FB /* logoricom.png */,
+				4BCADC4527F1B6CE00D37D49 /* RicomEnergy.xcdatamodeld */,
+			);
+			path = RicomEnergy;
+			sourceTree = "<group>";
+		};
+		4BCADC5527F1B70C00D37D49 /* RicomEnergyTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BCADC5627F1B70C00D37D49 /* RicomEnergyTests.swift */,
+				4BCADC5827F1B70C00D37D49 /* Info.plist */,
+			);
+			path = RicomEnergyTests;
+			sourceTree = "<group>";
+		};
+		4BCADC6027F1B70C00D37D49 /* RicomEnergyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BCADC6127F1B70C00D37D49 /* RicomEnergyUITests.swift */,
+				4BCADC6327F1B70C00D37D49 /* Info.plist */,
+			);
+			path = RicomEnergyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BCADC3827F1B6CD00D37D49 /* RicomEnergy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCADC6627F1B70D00D37D49 /* Build configuration list for PBXNativeTarget "RicomEnergy" */;
+			buildPhases = (
+				4BCADC3527F1B6CD00D37D49 /* Sources */,
+				4BCADC3627F1B6CD00D37D49 /* Frameworks */,
+				4BCADC3727F1B6CD00D37D49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RicomEnergy;
+			productName = RicomEnergy;
+			productReference = 4BCADC3927F1B6CD00D37D49 /* RicomEnergy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BCADC5127F1B70C00D37D49 /* RicomEnergyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCADC6927F1B70D00D37D49 /* Build configuration list for PBXNativeTarget "RicomEnergyTests" */;
+			buildPhases = (
+				4BCADC4E27F1B70C00D37D49 /* Sources */,
+				4BCADC4F27F1B70C00D37D49 /* Frameworks */,
+				4BCADC5027F1B70C00D37D49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BCADC5427F1B70C00D37D49 /* PBXTargetDependency */,
+			);
+			name = RicomEnergyTests;
+			productName = RicomEnergyTests;
+			productReference = 4BCADC5227F1B70C00D37D49 /* RicomEnergyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BCADC5C27F1B70C00D37D49 /* RicomEnergyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCADC6C27F1B70D00D37D49 /* Build configuration list for PBXNativeTarget "RicomEnergyUITests" */;
+			buildPhases = (
+				4BCADC5927F1B70C00D37D49 /* Sources */,
+				4BCADC5A27F1B70C00D37D49 /* Frameworks */,
+				4BCADC5B27F1B70C00D37D49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BCADC5F27F1B70C00D37D49 /* PBXTargetDependency */,
+			);
+			name = RicomEnergyUITests;
+			productName = RicomEnergyUITests;
+			productReference = 4BCADC5D27F1B70C00D37D49 /* RicomEnergyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BCADC3127F1B6CD00D37D49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4BCADC3827F1B6CD00D37D49 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4BCADC5127F1B70C00D37D49 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4BCADC3827F1B6CD00D37D49;
+					};
+					4BCADC5C27F1B70C00D37D49 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4BCADC3827F1B6CD00D37D49;
+					};
+				};
+			};
+			buildConfigurationList = 4BCADC3427F1B6CD00D37D49 /* Build configuration list for PBXProject "RicomEnergy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BCADC3027F1B6CC00D37D49;
+			productRefGroup = 4BCADC3A27F1B6CD00D37D49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BCADC3827F1B6CD00D37D49 /* RicomEnergy */,
+				4BCADC5127F1B70C00D37D49 /* RicomEnergyTests */,
+				4BCADC5C27F1B70C00D37D49 /* RicomEnergyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BCADC3727F1B6CD00D37D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCADC4C27F1B70600D37D49 /* LaunchScreen.storyboard in Resources */,
+				4BCADC4927F1B70600D37D49 /* Assets.xcassets in Resources */,
+				4BCADC4427F1B6CE00D37D49 /* Main.storyboard in Resources */,
+				4B736F9127FCBFB5007E66FB /* logoricom.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCADC5027F1B70C00D37D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCADC5B27F1B70C00D37D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BCADC3527F1B6CD00D37D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCADC4727F1B6CE00D37D49 /* RicomEnergy.xcdatamodeld in Sources */,
+				4BCADC4127F1B6CE00D37D49 /* ViewController.swift in Sources */,
+				4BCADC3D27F1B6CE00D37D49 /* AppDelegate.swift in Sources */,
+				4BCADC3F27F1B6CE00D37D49 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCADC4E27F1B70C00D37D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCADC5727F1B70C00D37D49 /* RicomEnergyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCADC5927F1B70C00D37D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCADC6227F1B70C00D37D49 /* RicomEnergyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BCADC5427F1B70C00D37D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BCADC3827F1B6CD00D37D49 /* RicomEnergy */;
+			targetProxy = 4BCADC5327F1B70C00D37D49 /* PBXContainerItemProxy */;
+		};
+		4BCADC5F27F1B70C00D37D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BCADC3827F1B6CD00D37D49 /* RicomEnergy */;
+			targetProxy = 4BCADC5E27F1B70C00D37D49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BCADC4227F1B6CE00D37D49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BCADC4327F1B6CE00D37D49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BCADC4A27F1B70600D37D49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BCADC4B27F1B70600D37D49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BCADC6427F1B70C00D37D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BCADC6527F1B70C00D37D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BCADC6727F1B70D00D37D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RicomEnergy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fblt.RicomEnergy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BCADC6827F1B70D00D37D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RicomEnergy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fblt.RicomEnergy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BCADC6A27F1B70D00D37D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RicomEnergyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fblt.RicomEnergyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RicomEnergy.app/RicomEnergy";
+			};
+			name = Debug;
+		};
+		4BCADC6B27F1B70D00D37D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RicomEnergyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fblt.RicomEnergyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RicomEnergy.app/RicomEnergy";
+			};
+			name = Release;
+		};
+		4BCADC6D27F1B70D00D37D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RicomEnergyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fblt.RicomEnergyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RicomEnergy;
+			};
+			name = Debug;
+		};
+		4BCADC6E27F1B70D00D37D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RicomEnergyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fblt.RicomEnergyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RicomEnergy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BCADC3427F1B6CD00D37D49 /* Build configuration list for PBXProject "RicomEnergy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCADC6427F1B70C00D37D49 /* Debug */,
+				4BCADC6527F1B70C00D37D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCADC6627F1B70D00D37D49 /* Build configuration list for PBXNativeTarget "RicomEnergy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCADC6727F1B70D00D37D49 /* Debug */,
+				4BCADC6827F1B70D00D37D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCADC6927F1B70D00D37D49 /* Build configuration list for PBXNativeTarget "RicomEnergyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCADC6A27F1B70D00D37D49 /* Debug */,
+				4BCADC6B27F1B70D00D37D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCADC6C27F1B70D00D37D49 /* Build configuration list for PBXNativeTarget "RicomEnergyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCADC6D27F1B70D00D37D49 /* Debug */,
+				4BCADC6E27F1B70D00D37D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BCADC4527F1B6CE00D37D49 /* RicomEnergy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BCADC4627F1B6CE00D37D49 /* RicomEnergy.xcdatamodel */,
+			);
+			currentVersion = 4BCADC4627F1B6CE00D37D49 /* RicomEnergy.xcdatamodel */;
+			path = RicomEnergy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BCADC3127F1B6CD00D37D49 /* Project object */;
+}
